@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: #ced8ff;
+  transition: 0.5s;
+}
+.container.noite{
+  background-color: #222;
+}
+
+
+
+

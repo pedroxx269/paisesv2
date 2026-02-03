@@ -1,0 +1,45 @@
+.Sobre {
+  max-width: 1500;
+  margin: 0 auto;
+  padding: 120px 20px;
+  width: 1200px;
+}
+
+.Sobre h2 {
+  font-size: 80px; 
+  color: #111;
+  margin-bottom: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 800;
+  position: relative;
+  
+}
+
+.noite h2{
+  color: #cbcbcb;
+}
+
+
+
+.Sobre h2::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #4e73df, #1cc88a);
+  display: block;
+  margin-top: 12px;
+  border-radius: 4px;
+}
+
+.Sobre p {
+  font-size: 32px;
+  color: #444;
+  line-height: 1.8;
+  font-weight: 500;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bolder;
+}
+
+.noite p{
+  color: #dfdfdf;
+}

@@ -1,0 +1,15 @@
+.lixeira {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  font-size: 22px;
+  color: #e63946;
+
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.lixeira:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
