@@ -33,10 +33,12 @@ const Info_China = () => {
       <h1>{pais.name.common}</h1>
       <h3>{pais.name.official}</h3>
        <p>Bandeira e Brasão do país</p>
-      <img src={pais.flags.svg} alt={`Bandeira do ${pais.name.common}`} className="bandeira" />
+      <div className='imagens'><img src={pais.flags.svg} alt={`Bandeira do ${pais.name.common}`} className="bandeira" />
       {pais.coatOfArms?.svg && (
         <img src={pais.coatOfArms.svg} alt="Brasão do Brasil" className="brasao" />
       )}
+</div>
+      
 
       <div className="info">
   <p>
@@ -72,7 +74,7 @@ const Info_China = () => {
 
     </main>
     <footer>
-      <div className='pe'> <a href="http://localhost:5173/">Voltar</a></div>
+      <div className='pec'> <a href="http://localhost:5173/">Voltar</a></div>
     </footer></>
   );
 };

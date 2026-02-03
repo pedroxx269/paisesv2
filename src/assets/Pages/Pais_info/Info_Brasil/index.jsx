@@ -35,13 +35,11 @@ const Info_Brasil = () => {
       <h3>{pais.name.official}</h3>
 
       <p>Bandeira e Brasao do pais</p>
-      <img src={pais.flags.svg} alt={`Bandeira do ${pais.name.common}`} className="bandeira" />
-
-      
+      <div className='imagens'><img src={pais.flags.svg} alt={`Bandeira do ${pais.name.common}`} className="bandeira" />
       {pais.coatOfArms?.svg && (
         <img src={pais.coatOfArms.svg} alt="Brasão do Brasil" className="brasao" />
       )}
-
+</div>
       <div className="info">
     <p>O Brasil, nome official de <b>{pais.name.official}</b> e o maior país da <b>{pais.continents.join(", ")}</b>,tendo sua capital como <b>{pais.capital?.[0]}</b> sendo assim um dos maiores Países do mundo,seu tamanho e avaliado em <b>{pais.area.toLocaleString()} km²</b>.</p>   <br/> 
     <p>O Brasil por se um país tão grande assim ele tem regiões e sub regiões sendo elas <b>{pais.region}- {pais.subregion}</b>.O Brasil por outro lado tambem e o maior país do mundo inteiro a falar o idioma <b>{Object.values(pais.languages || {}).join(", ")}</b> e tambem sendo uma gigante nação de <b>{pais.population.toLocaleString()}</b> habitantes .</p> <br />
@@ -54,7 +52,7 @@ const Info_Brasil = () => {
       </div>
     </main>
     <footer>
-      <div className='pe'> <a href="http://localhost:5173/">Voltar</a></div>
+      <div className='pec'> <a href="http://localhost:5173/">Voltar</a></div>
     </footer>
     </>
   );

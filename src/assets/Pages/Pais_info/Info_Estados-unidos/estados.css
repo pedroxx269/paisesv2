@@ -1,20 +1,17 @@
 .Eua {
-    background: linear-gradient(135deg, #271cef53, #f2202048);
+    background: linear-gradient(135deg, #ef1c1c43, #d6f22032);
     padding: 20px;
     margin: 0 auto;
-    flex-wrap: wrap;
 }
 
-
 .Eua h1 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 75px;
     border-bottom: 8px solid #e32600;
     border-radius: 6px;
     text-align: center;
     color: rgb(25, 23, 23);
 }
-
 
 .Eua h3 {
     font-family: sans-serif;
@@ -24,48 +21,92 @@
     color: rgb(25, 23, 23);
 }
 
-.bandeira{
-    max-width: 800px;
-    padding: 20px 100px;
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.bandeira,
+.brasao {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
 }
 .brasao{
-    max-width: 800px;
-    padding-bottom: 50px;
-    padding-left: 350px;
+    max-width: 250px; 
 }
+
 
 
 .info {
- font-size: 32px;
-  line-height: 1.8;
-  font-weight: 500;
-  font-family: 'Segoe UI', sans-serif;
-  font-weight: bolder;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 10px;
+    font-size: 32px;
+    line-height: 1.8;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
-p{
-  font-size: 32px;
-  color: rgb(38, 37, 37);
-  text-align: center;
+/* Parágrafos */
+p {
+    font-size: 32px;
+    color: rgb(38, 37, 37);
+    text-align: center;
 }
-.pe{
+
+/* Rodapé / PEC */
+.pec {
     height: 50px;
+    display: flex;
     justify-content: center;
+    align-items: center;
     background-color: black;
-    padding-top: 10px;
 }
-.pe a{
+
+.pec a {
     color: white;
     font-size: 32px;
     text-decoration: none;
     font-family: sans-serif;
-    padding-left: 900px;
-    padding-top: 20px;
     font-weight: bolder;
 }
 
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+    .imagens {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .bandeira,
+    .brasao {
+        max-width: 320px;
+    }
 
+    .brasao{
+    max-width: 200px; 
+}
+
+    .Eua h1 {
+        font-size: 48px;
+    }
+
+    .Eua h3 {
+        font-size: 36px;
+        padding: 40px 0 20px;
+    }
+
+    p,
+    .info {
+        font-size: 24px;
+    }
+}
