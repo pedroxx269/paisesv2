@@ -91,6 +91,7 @@ background: linear-gradient(135deg, #1cef1c, #2090f2);
   cursor: pointer;
   font-size: 18px;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif ;
 }
 .Card button Link{
     font-family: sans-serif;

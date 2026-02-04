@@ -42,26 +42,26 @@ const Info_Italia = () => {
       
 <div className="info">
   <p>
-    A Itália, nome oficial de <b>{pais.name.official}</b>, está localizada na 
+    A Itália tem o nome oficial de <b>{pais.name.official}</b>, está localizada na grande
     <b> {pais.continents.join(", ")}</b>, tendo sua capital como 
     <b> {pais.capital?.[0]}</b>, com uma área de 
-    <b> {pais.area.toLocaleString()} km²</b>.
+    <b> {pais.area.toLocaleString()} km²</b> a Italia nao e um país tão grande assim.
   </p><br/>
 
   <p>
-    Mesmo sendo um país menor, a Itália possui regiões e sub-regiões como 
+    Mesmo sendo um país pequeno , a Itália possui algumas regiões e sub-regiões como 
     <b> {pais.region} - {pais.subregion}</b>. 
-    O idioma oficial é 
+    O idioma oficial atualmente é 
     <b> {Object.values(pais.languages || {}).join(", ")}</b> 
     e sua população é de 
     <b> {pais.population.toLocaleString()}</b> habitantes.
   </p><br/>
 
   <p>
-    A moeda oficial da Itália é 
+    A Italia ultiliza como moeda oficial o
     <b> {Object.values(pais.currencies || {})
       .map(m => `${m.name} (${m.symbol})`).join(", ")}</b>, 
-    e o país é independente? <b>{pais.independent ? "Sim" : "Não"}</b>
+    e o país é independente <b>{pais.independent ? "Sim" : "Não"}</b>
   </p><br/>
 
   <p>

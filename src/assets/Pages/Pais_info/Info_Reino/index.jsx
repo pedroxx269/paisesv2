@@ -42,26 +42,26 @@ const Info_Reino = () => {
       
        <div className="info">
   <p>
-    O Reino-unido faz parte do <b>{pais.name.official}</b>, localizado na 
+    O grande Reino-unido faz parte do <b>{pais.name.official}</b>, localizado na 
     <b> {pais.continents.join(", ")}</b>, tendo sua capital como 
     <b> {pais.capital?.[0]}</b>, com uma área de 
     <b> {pais.area.toLocaleString()} km²</b>.
   </p><br/>
 
   <p>
-    O país pertence à região 
+    O país é da região 
     <b> {pais.region} - {pais.subregion}</b>, 
-    tendo como idioma principal 
+    tendo como idioma principal como o
     <b> {Object.values(pais.languages || {}).join(", ")}</b> 
-    e uma população de 
+    e uma população de mais
     <b> {pais.population.toLocaleString()}</b> habitantes.
   </p><br/>
 
   <p>
-    A moeda utilizada é 
+    A moeda do país e a 
     <b> {Object.values(pais.currencies || {})
       .map(m => `${m.name} (${m.symbol})`).join(", ")}</b>, 
-    e o país é independente? <b>{pais.independent ? "Sim" : "Não"}</b>
+    e o país segue independente <b>{pais.independent ? "Sim" : "Não"}</b>
   </p><br/>
 
   <p>

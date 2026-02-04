@@ -44,7 +44,7 @@ const Info_Russia = () => {
   <p>
     A Rússia, nome oficial de <b>{pais.name.official}</b>, é o maior país do mundo e está localizada entre a 
     <b> {pais.continents.join(", ")}</b>, tendo sua capital como 
-    <b> {pais.capital?.[0]}</b>, com uma área estimada em 
+    <b> {pais.capital?.[0]}</b>, Russia por ser o maior país do mundo esta avaliada em 
     <b> {pais.area.toLocaleString()} km²</b>.
   </p><br/>
 
@@ -61,7 +61,7 @@ const Info_Russia = () => {
     A moeda oficial da Rússia é 
     <b> {Object.values(pais.currencies || {})
       .map(m => `${m.name} (${m.symbol})`).join(", ")}</b>. 
-    O país possui diversos fusos horários, sendo eles 
+    O país por ser imenso possui diversos fusos horários, sendo eles 
     <b> {pais.timezones.join(", ")}</b>, 
     e é independente? <b>{pais.independent ? "Sim" : "Não"}</b>
   </p><br/>

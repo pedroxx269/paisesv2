@@ -41,15 +41,15 @@ const Info_Estados = () => {
 
       <div className="info">
   <p>
-    Os Estados Unidos da América, nome oficial de <b>{pais.name.official}</b>, são um dos maiores países da 
+    Os Estados Unidos da América (ou ingles Eua) tem o nome oficial de <b>{pais.name.official}</b>, são um dos maiores países da 
     <b> {pais.continents.join(", ")}</b>, tendo sua capital como 
-    <b> {pais.capital?.[0]}</b>, com uma área total de 
+    <b> {pais.capital?.[0]}</b>, com uma área total avalida em
     <b> {pais.area.toLocaleString()} km²</b>.
   </p><br/>
   <p>
     Por ser um país de grande extensão, os EUA possuem regiões e sub-regiões como 
     <b> {pais.region} - {pais.subregion}</b>. 
-    O idioma predominante é 
+    O idioma principal é 
     <b> {Object.values(pais.languages || {}).join(", ")}</b>, 
     e sua população ultrapassa 
     <b> {pais.population.toLocaleString()}</b> habitantes.

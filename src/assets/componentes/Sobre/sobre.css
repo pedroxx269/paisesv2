@@ -1,8 +1,7 @@
 .Sobre {
-  max-width: 1500;
   margin: 0 auto;
   padding: 120px 20px;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .Sobre h2 {
@@ -38,8 +37,11 @@
   font-weight: 500;
   font-family: 'Segoe UI', sans-serif;
   font-weight: bolder;
+ 
+  
 }
 
 .noite p{
   color: #dfdfdf;
 }
+

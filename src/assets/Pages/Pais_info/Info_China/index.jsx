@@ -42,28 +42,25 @@ const Info_China = () => {
 
       <div className="info">
   <p>
-    A China, nome oficial de <b>{pais.name.official}</b>, é um dos maiores países da 
-    <b> {pais.continents.join(", ")}</b>, tendo sua capital como 
-    <b> {pais.capital?.[0]}</b>, sendo assim uma das maiores nações do mundo, 
-    com seu tamanho avaliado em <b>{pais.area.toLocaleString()} km²</b>.
+    A China, nome oficial de <b>{pais.name.official}</b>, é o maior país da <b> {pais.continents.join(", ")}</b>,  e o segundo país mais populoso do mundo tendo  <b> {pais.population.toLocaleString()}</b> habitantes.
+    tendo sua capital como 
+    <b> {pais.capital?.[0]}</b>, a China tem seu tamanho avaliado em <b>{pais.area.toLocaleString()} km²</b>.
   </p><br/>
 
   <p>
     A China, por ser um país muito grande, possui regiões e sub-regiões, sendo elas 
     <b> {pais.region} - {pais.subregion}</b>. 
-    O país também possui como idioma oficial 
+    O país também possui como idioma  próprio e oficial sendo ele o 
     <b> {Object.values(pais.languages || {}).join(", ")}</b> 
-    e conta com uma população de 
-    <b> {pais.population.toLocaleString()}</b> habitantes.
   </p><br/>
 
   <p>
     A moeda oficial da China atualmente é 
     <b> {Object.values(pais.currencies || {})
       .map(m => `${m.name} (${m.symbol})`).join(", ")}</b>. 
-    Devido à sua grande extensão territorial, a China possui diferentes fusos horários, como 
+    Devido a seu grande tamanho territorial, a China possui diferentes fusos horários, como 
     <b> {pais.timezones.join(", ")}</b>. 
-    O país é independente? <b>{pais.independent ? "Sim" : "Não"}</b>
+    O país segue independente <b>{pais.independent ? "Sim" : "Não"}</b>
   </p><br/>
 
   <p>

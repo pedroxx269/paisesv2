@@ -1,12 +1,12 @@
 .lixeira {
-  background: transparent;
+  background-color: #e82a39;
   border: none;
   cursor: pointer;
-
   font-size: 22px;
-  color: #e63946;
-
+  color: #fff;
+  padding: 2px 4px 4px 4px;
   transition: transform 0.2s ease, opacity 0.2s ease;
+  border-radius: 7px;
 }
 
 .lixeira:hover {

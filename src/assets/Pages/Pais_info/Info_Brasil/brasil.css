@@ -1,5 +1,5 @@
 .Brasil {
-    background: linear-gradient(135deg, #ef1c1c43, #d6f22032);
+    background: linear-gradient(135deg, #40ff0043, #ddff0032, #1500ff4f);
     padding: 20px;
     margin: 0 auto;
 }
@@ -7,7 +7,7 @@
 .Brasil h1 {
     font-family: sans-serif;
     font-size: 75px;
-    border-bottom: 8px solid #e32600;
+    border-bottom: 8px solid #1eff00d0;
     border-radius: 6px;
     text-align: center;
     color: rgb(25, 23, 23);
