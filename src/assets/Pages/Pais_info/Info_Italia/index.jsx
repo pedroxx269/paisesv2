@@ -71,7 +71,7 @@ const Info_Italia = () => {
 </div>
     </main>
   <footer>
-      <div className='pec'> <a href="http://localhost:5173/">Voltar</a></div>
+      <div className='pec'> <a href="https://paisesv2.vercel.app/">Voltar</a></div>
     </footer>
 
     </>
