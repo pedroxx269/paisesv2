@@ -117,3 +117,99 @@ p{
     font-weight: 600;
     font-family: sans-serif;
 }
+
+@media (max-width: 768px) {
+  .Cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .Cards h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .Card {
+    max-width: 100%;
+  }
+
+  .Foto img {
+    width: 180px;
+  }
+
+  .Card h4 {
+    font-size: 24px;
+  }
+
+  .botoes {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .botao,
+  .botaolixeira {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .Cards h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .Card {
+    max-width: 100%;
+  }
+
+  .Foto img {
+    width: 180px;
+  }
+
+  .Card h4 {
+    font-size: 24px;
+  }
+
+  .botoes {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .botao,
+  .botaolixeira {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Cards h2 {
+    font-size: 28px;
+  }
+
+  .Foto {
+    height: 160px;
+  }
+
+  .Foto img {
+    width: 150px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .Card {
+    min-height: auto;
+  }
+}
